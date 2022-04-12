@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    struct laptop{
+        int Price;
+        int Ram;
+        char Brand[3];
+        int  AGP;
+    };
+    struct laptop X;
+    scanf("%d",&X.Price);
+    scanf("%d",&X.Ram);
+    scanf("%s",X.Brand);
+    scanf("%d",&X.AGP);
+    printf("The price is %d\n ",X.Price);
+    printf("The ram is %d\n",X.Ram);
+    printf("The brand is %c\n",X.Brand);
+    printf("The AGP is %d\n",X.AGP);
+    return 0;
+}

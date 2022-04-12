@@ -1,0 +1,51 @@
+
+
+#include<stdio.h>
+#include<math.h>
+void triangle(b,h);
+void rectangle(b,h);
+void square(a);
+void circle(r);
+
+
+int main()
+{
+    int b,h,a,r;
+   printf("enter b\n");
+    printf("enter h\n");
+     printf("enter a\n");
+      printf("enter r");
+    scanf("%d%d%d%d",&b,&h,&a,&r);
+
+    triangle(b,h);
+    rectangle(b,h);
+    square(a);
+    circle(r);
+
+
+
+return 0;
+}
+void triangle(b,h)
+
+{
+    int tri = .5*b*h;
+    printf("area of triangle is %d\n",tri);
+}
+void rectangle(b,h)
+{
+   int rec= b*h;
+    printf("area of rectangle %d\n",rec);
+}
+void square(a)
+{
+   int sq=a*a;
+
+    printf("area of square %d\n",sq);
+}
+void circle(r)
+{
+ int  cir= M_PI*r*r;
+
+    printf("area of circle%d\n",cir);
+}

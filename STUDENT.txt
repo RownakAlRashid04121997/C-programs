@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    struct student{
+        int id;
+        char Name[10];
+        char  Department[10];
+        float  CGPA;
+    }a;
+    int i;
+    printf("Enter student information");
+    for(i=1;i<=10;i++){
+    scanf("%d %c %c %f",&a.id,a.Name,a.Department,&a.CGPA);
+    printf("%d%c%c%f\n",a.id,a.Name,a.Department,a.CGPA);
+    }
+     return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int a,b,interchnge;
+    printf("Enter the values of a and b\n");
+    scanf("%d%d",&a,&b);
+    a=a-b;
+    b=a+b;
+    a=b-a;
+    printf("after interchange a=%d",a);
+    printf("after interchange b=%d",b);
+
+
+    return 0;
+}

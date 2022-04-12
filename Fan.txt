@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    struct fan{
+    char colour[5];
+    int wings;
+    char brand[10];
+    };
+    struct fan f;
+    scanf("%s %d %s",f.colour,&f.wings,f.brand);
+    printf("%s%d%s\n",f.colour,f.wings,f.brand);
+    return 0;
+}

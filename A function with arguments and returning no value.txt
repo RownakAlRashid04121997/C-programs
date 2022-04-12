@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+void add(int x, int y);
+
+void main()
+{
+    add(30,15);
+    add(63,49);
+    add(952,321);
+}
+
+void add(int x, int y)
+{
+    int result;
+    result = x+y;
+    printf("Sum of %d and %d is %d.\n\n",x,y,result);
+}

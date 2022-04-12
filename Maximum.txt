@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main( )
+{
+int a,b;
+    printf("enter two integers a and b:");
+    scanf("%d%d",&b,&a);
+    if (a>b)
+        {
+         printf("maximum number is %d",a);
+        }
+    else
+        {
+        printf("maximum number is %d",b);
+        }
+    return 0;
+    }
+
+
+

@@ -1,0 +1,20 @@
+#include<stdio.h>
+void sum(int a, int b, int c, int d, int e);
+
+int main()
+{
+    int a,b,c,d,e,res1=0;
+    printf("enter five integers : \n");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    sum(a,b,c,d,e);
+     return 0;
+}
+void sum(int a, int b, int c, int d, int e)
+{
+    int addition=0, avg=0;
+   addition=a+b+c+d+e;
+  avg=(a+b+c+d+e)/5;
+
+  printf("%d\n%d",addition,avg);
+
+}

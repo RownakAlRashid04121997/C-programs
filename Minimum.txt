@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main( )
+{
+    int a,b;
+    printf("enter two integers a and b :");
+    scanf("%d%d",&b,&a);
+    if(a<b)
+    {
+        printf("minimum number is%d",a);
+    }
+    else
+    {
+        printf("minimum value is %d ",b);
+    }
+    return 0;
+    }
+
