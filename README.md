@@ -1,2 +1,2 @@
 # C-programs
-My basic practice of C programming
+This is my basic practice of C program
